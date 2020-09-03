@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const contact = require('./routes/contact.route'); // Imports routes for the products
+const contact = require('./app/routes/contact.route'); // Imports routes for the products
 const app = express();
 
-const product_controller = require('./controllers/contact.controller');
+const product_controller = require('./app/controllers/contact.controller');
 
 app.use('/api', contact);
 let port = 1234;
