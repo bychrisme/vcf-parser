@@ -45,8 +45,8 @@ exports.test = function (req, res) {
     console.log("End");
 };
 
-exports.vcfParse = function (path) {
-    var data = fs.readFileSync(path.resolve(__dirname, path), 'utf8');
+exports.vcfParse = function (req, res) {
+    var data = fs.readFileSync(path.resolve(__dirname, '../assets/contacts.vcf'), 'utf8');
     const dataParse = parseVcfToJson(data);
     res.send(dataParse);
 };
