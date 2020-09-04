@@ -7,15 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bychrisme/vcf-parser.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "VCF",
+    "Parser"
+  ],
   "author": "bychrisme",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.7.0",
-    "nodemon": "^1.19.2",
-    "vcard": "^0.1.0"
+    "nodemon": "^1.19.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
