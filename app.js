@@ -1,4 +1,5 @@
-const express = require('express');
+// const express = require('express');
+import express from 'express'
 const bodyparser = require('body-parser');
 const fileUpload = require('express-fileupload');
 const contact = require('./app/routes/contact.route'); // Imports routes for the products
